@@ -1,3 +1,10 @@
+---
+title: Privacy
+tags:
+  - informatica-giuridica
+date: 2023-12-05
+---
+
 Il concetto di **privacy** nasce nel **1890** negli **USA** per garantire il *diritto di essere lasciati soli*.
 
 Al giorno d'oggi la privacy è il diritto di un individuo di decidere **quali informazioni personali condividere, con chi condividerle e come queste informazioni possono essere utilizzate**.

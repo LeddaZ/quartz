@@ -1,3 +1,10 @@
+---
+title: Identificabilità e anonimato
+tags:
+  - informatica-giuridica
+date: 2023-12-03
+---
+
 ## Identificabilità nel mondo reale
 Il nome di un individuo (e di conseguenza la sua personalità e identità) è tutelato dal codice civile, ed è quindi un **diritto**.
 

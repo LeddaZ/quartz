@@ -1,3 +1,10 @@
+---
+title: Sicurezza e prevenzione
+tags:
+  - sicurezza
+date: 2024-01-09
+---
+
 #### Rifiuti
 - **Rifiuto speciale**: rifiuto prodotto dalle aziende
 - **Rifiuto urbano**: prodotto nelle abitazioni

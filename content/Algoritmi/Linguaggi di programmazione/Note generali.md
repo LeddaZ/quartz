@@ -1,3 +1,11 @@
+---
+title: Note generali
+tags:
+  - algoritmi
+  - linguaggi-programmazione
+date: 2023-12-03
+---
+
 ## Paradigmi
 I linguaggi di programmazione si possono classificare in base al paradigma che utilizzano:
 - **Imperativo (o procedurale)**: specificano come arrivare alla soluzione

@@ -1,3 +1,10 @@
+---
+title: Valutazione degli algoritmi
+tags:
+  - algoritmi
+date: 2023-12-13
+---
+
 ## Valutazione di un algoritmo
 ### Efficienza
 Si deve stabilire se un programma è efficiente, ossia utilizza il tempo e lo spazio a disposizione nel miglior modo possibile; quando si raggiunge il massimo livello di efficienza si trova la **soluzione ottima**. *Non tutti i problemi possono essere risolti efficientemente, alcuni non possono essere risolti in alcun modo.*

@@ -1,3 +1,11 @@
+---
+title: C#
+tags:
+  - algoritmi
+  - linguaggi-programmazione
+date: 2023-12-03
+---
+
 ## Parametri
 I parametri si dividono in **attuali** e **formali**.
 ### Parametri attuali

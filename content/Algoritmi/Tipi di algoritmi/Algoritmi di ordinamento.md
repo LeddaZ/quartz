@@ -1,3 +1,10 @@
+---
+title: Algoritmi di ordinamento
+tags:
+  - algoritmi
+date: 2024-01-09
+---
+
 ## Proprietà
 - **Stabilità**: un algoritmo di ordinamento è stabile se preserva l'ordine iniziale tra due elementi con la stessa chiave (*esempio: ordinamento per nome*);
 - **Ordinamento sul posto (in place)**: non crea copie dell'input per generare la sequenza ordinata;
