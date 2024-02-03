@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: null,
     baseUrl: "leddaz.github.io/notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "published",
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "Schibsted Grotesk",

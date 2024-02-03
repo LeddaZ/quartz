@@ -3,7 +3,7 @@ title: Note generali
 tags:
   - algoritmi
   - linguaggi-programmazione
-date: 2023-12-03
+date: "2023-12-03"
 ---
 
 ## Paradigmi

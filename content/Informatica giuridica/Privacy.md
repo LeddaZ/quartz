@@ -2,7 +2,7 @@
 title: Privacy
 tags:
   - informatica-giuridica
-date: 2023-12-05
+date: "2023-12-05"
 ---
 
 Il concetto di **privacy** nasce nel **1890** negli **USA** per garantire il *diritto di essere lasciati soli*.

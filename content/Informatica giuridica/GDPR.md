@@ -2,7 +2,7 @@
 title: GDPR
 tags:
   - informatica-giuridica
-date: 2023-12-03
+date: "2023-12-03"
 ---
 
 ## Principi

@@ -2,7 +2,7 @@
 title: Sicurezza e prevenzione
 tags:
   - sicurezza
-date: 2024-01-09
+date: "2024-01-09"
 ---
 
 #### Rifiuti
