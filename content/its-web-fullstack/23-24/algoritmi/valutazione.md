@@ -2,6 +2,7 @@
 title: Valutazione degli algoritmi
 tags:
   - algoritmi
+  - its
 date: "2023-12-13"
 ---
 

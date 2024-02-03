@@ -1,5 +1,5 @@
 ---
-title: Algoritmi di ordinamento
+title: Algoritmi di ricerca
 tags:
   - algoritmi
 date: "2023-12-13"
