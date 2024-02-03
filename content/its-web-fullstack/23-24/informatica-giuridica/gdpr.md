@@ -2,10 +2,11 @@
 title: GDPR
 tags:
   - informatica-giuridica
+  - its
 date: "2023-12-03"
 ---
-
 ## Principi
+
 - Liceità
 - Correttezza
 - Trasparenza
@@ -18,9 +19,11 @@ date: "2023-12-03"
 - Responsabilizzazione
 
 ## Disposizioni generali
+
 Il beneficiario del diritto alla protezione dei dati è la **persona fisica**.
 
 ### Definizioni
+
 **Dato personale**: qualsiasi informazione riguardante una persona fisica identificata o identificabile; si può identificare una persona attraverso dati come nome, indirizzo, aspetto fisico e ideologie sociali e culturali.
 
 **Trattamento**: qualsiasi operazione o insieme di operazioni applicate ai dati personali come la raccolta e la consultazione.
@@ -50,6 +53,7 @@ Il beneficiario del diritto alla protezione dei dati è la **persona fisica**.
 **Violazione dei dati personali** o **data breach**: la violazione di sicurezza che comporta accidentalmente o in modo illecito la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l’accesso ai dati personali trasmessi, conservati o comunque trattati.
 
 ### Diritti degli interessati
+
 - Diritto di ottenere la conferma del trattamento
 - Diritto di avere accesso ai dati e alle informazioni inerenti il trattamento
 - Diritto di rettifica
