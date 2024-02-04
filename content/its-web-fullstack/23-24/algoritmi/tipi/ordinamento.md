@@ -2,6 +2,7 @@
 title: Algoritmi di ordinamento
 tags:
   - algoritmi
+  - its
 date: "2024-01-09"
 ---
 ## Proprietà

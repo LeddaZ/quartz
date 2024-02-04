@@ -2,6 +2,7 @@
 title: Note generali
 tags:
   - algoritmi
+  - its
   - linguaggi-programmazione
 date: "2023-12-03"
 ---

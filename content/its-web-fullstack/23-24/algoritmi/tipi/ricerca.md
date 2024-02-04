@@ -2,6 +2,7 @@
 title: Algoritmi di ricerca
 tags:
   - algoritmi
+  - its
 date: "2023-12-13"
 ---
 Un **algoritmo di ricerca** è un algoritmo che, data una sequenza di elementi, restituisce la **posizione di un elemento cercato**, se presente, o un valore nullo (tipicamente `-1`) se non è presente.
