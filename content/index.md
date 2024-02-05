@@ -2,7 +2,7 @@
 title: Welcome!
 tags:
   - hello
-date: "2024-02-03"
+date: 2024-02-03
 ---
 Welcome to my notes repository!
 

@@ -3,7 +3,7 @@ title: Sicurezza e prevenzione
 tags:
   - its
   - sicurezza
-date: "2024-01-09"
+date: 2024-01-09
 ---
 ## Rifiuti
 

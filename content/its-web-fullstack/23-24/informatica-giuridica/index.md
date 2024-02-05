@@ -3,5 +3,5 @@ title: Informatica giuridica
 tags:
   - informatica-giuridica
   - its
-date: "2023-12-03"
+date: 2023-12-03
 ---

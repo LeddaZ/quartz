@@ -4,7 +4,7 @@ tags:
   - algoritmi
   - its
   - strutture-dati
-date: "2024-02-05"
+date: 2024-02-05
 ---
 ## Introduzione
 

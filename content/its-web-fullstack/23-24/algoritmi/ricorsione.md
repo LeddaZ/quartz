@@ -3,7 +3,7 @@ title: Ricorsione
 tags:
   - algoritmi
   - its
-date: "2023-12-03"
+date: 2023-12-03
 ---
 Una definizione si dice **ricorsiva** se include una o più istanze del concetto stesso.
 *Esempio: **PHP** (**PHP** Hypertext Processor)*
