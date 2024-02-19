@@ -13,6 +13,7 @@ import ko from "./locales/ko-KR"
 
 export const TRANSLATIONS = {
   "en-US": en,
+  "en-GB": en,
   "fr-FR": fr,
   "ja-JP": ja,
   "de-DE": de,
