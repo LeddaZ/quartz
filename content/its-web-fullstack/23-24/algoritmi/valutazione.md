@@ -93,4 +93,4 @@ T(n)=
 \end{flalign}
 $$
 
-La formula si chiama **equazione di ricorrenza**.
+La formula si chiama **equazione di ricorrenza** e si può scrivere come $T(n) = d*log(n) + e$ .
