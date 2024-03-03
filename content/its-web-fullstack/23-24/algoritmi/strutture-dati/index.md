@@ -27,13 +27,13 @@ Una collezione è una struttura dati che permette di **raggruppare elementi in u
 Gli **array** (mono o multi-dimensionali) sono un particolare tipo di
 collezione, dove i dati sono **tutti dello stesso tipo**.
 
-Altri tipi di collezione notevoli sono: liste, dizionari, tabelle hash.
+Altri tipi di collezione notevoli sono: **liste**, **dizionari**, **tabelle hash**.
 
 ### Strutture di dati
 
 Le strutture di dati sono **collezioni di dati**, delle quali ci interessa più **l’organizzazione dei dati stessi** nella collezione piuttosto che il tipo dei dati in essa contenuti. Esse sono caratterizzate da un insieme di **operatori** che permettono di manipolare la struttura e da un modo sistematico di organizzare l’insieme dei dati.
 
 Alcune tipologie di strutture di dati:
-- Lineari / Non lineari (presenza di una sequenza)
-- Statiche / Dinamiche (variazione di dimensione, contenuto)
-- Omogenee / Disomogenee (dati contenuti)
+- Lineari o non lineari (presenza di una sequenza)
+- Statiche o dinamiche (variazione di dimensione, contenuto)
+- Omogenee o disomogenee (dati contenuti)
