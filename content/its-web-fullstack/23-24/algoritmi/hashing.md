@@ -73,3 +73,47 @@ Una collisione avviene quando due o più chiavi nel dizionario hanno lo **stesso
 Quando la posizione che dovrebbe occupare una chiave è già occupata da un valore (*diverso*) precedente, dobbiamo trovare una posizione alternativa.
 
 Inoltre, se una chiave non si trova nella posizione attesa, bisogna cercarla nelle posizioni alternative. Questa ricerca dovrebbe costare $O(1)$ nel caso medio, ma può arrivare a costare **O(n)** nel caso pessimo.
+
+## Liste/vettori di trabocco
+
+Con questo metodo le chiavi con lo stesso valore hash vengono memorizzate in una **lista monodirezionale** (o un **vettore dinamico**). Si memorizza un puntatore alla testa della lista (o al vettore) nello slot $H(k)$-esimo della tabella hash.
+
+### Operazioni
+
+| Operazione | Descrizione                                     |
+| ---------- | ----------------------------------------------- |
+| `insert()` | Inserisce il nuovo elemento in testa o in coda. |
+| `lookup()` | Cerca una chiave nella lista.                   |
+| `remove()` | Rimuove una chiave dalla lista.                 |
+
+### Indirizzamento aperto
+
+Le liste di trabocco sono strutture dati complesse, con liste, puntatori, ecc. La soluzione alternativa è l’**indirizzamento aperto**, dove si memorizzano tutte le chiavi direttamente nel vettore stesso senza ulteriori puntatori, risparmiando memoria). Ogni slot del vettore contiene una chiave oppure il valore `nil`.
+
+- Inserimento: se lo slot prescelto è utilizzato, si cerca uno slot alternativo;
+- Ricerca: si cerca nello slot prescelto e poi negli slot alternativi fino a quando non si trova la chiave oppure `nil`.
+
+#### Tecniche di ispezione
+
+- **Ispezione lineare**: si trova una casella di partenza e ci si sposta di un numero fisso di caselle, ad esempio: $h(k)+0$, $h(k)+1$, $h(k)+2$, $h(k)+3$;
+- **Ispezione quadratica**: si trova una casella di partenza, poi ci si sposta di un numero di caselle proporzionale ai salti, ad esempio: $h(k)+0$, $h(k)+1$, $h(k)+4$, $h(k)+9$. Se due chiavi hanno lo stesso hash, le loro sequenze sono identiche. Inoltre, alcune caselle potrebbero essere ripetute (non si prova ogni casella solo una volta);
+- **Doppio hashing**: si trova la casella di partenza, poi ci si sposta di un numero di caselle pari al valore di una seconda funzione di hash: $h1(k)+0 * h2 (k)$, $h1 (k)+1 * h2 (k)$, $h1 (k)+2 * h2 (k)$, $h1 (k)+3 * h2 (k)$. Si usano due funzioni ausiliarie: $h1$ fornisce la prima ispezione e $h2$ fornisce l’offset delle successive.
+
+#### Cancellazione nell’indirizzamento aperto
+
+Non possiamo semplicemente sostituire la chiave che vogliamo cancellare con un `nil` perché potremmo rompere una catena di ispezione, facendo risultare mancante un elemento che in realtà è presente. Utilizziamo un valore speciale (`del`) al posto di `nil` per marcare uno slot come vuoto dopo la cancellazione.
+
+- Ricerca: `del` trattati come slot pieni;
+- Inserimento: `del` trattati come slot vuoti.
+
+## Conclusioni
+
+### Problemi delle tabelle di hash
+
+- Scarsa *locality of reference*: continuando a saltare da un punto all’altro della tabella, possono verificarsi molti **cache miss**.
+- Non è possibile ottenere le chiavi in ordine, vengono disperse nello sminuzzamento fatto dalla funzione.
+
+### Applicazioni delle funzioni di hash
+
+- Protezioni dati con hash crittografici;
+- Data deduplication.

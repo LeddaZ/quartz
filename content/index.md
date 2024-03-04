@@ -10,4 +10,4 @@ Welcome to my notes repository!
 
 I love cats, so here's Sakaki from Azumanga Daioh holding Maya:
 
-![sakaki](./sakaki.gif)
+![sakaki](./assets/sakaki.gif)
