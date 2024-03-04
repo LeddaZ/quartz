@@ -59,4 +59,24 @@ Un albero generico è un albero radicato in cui ogni nodo ha un numero arbitrari
 
 ## Visita di un albero
 
+ Una visita è una strategia per analizzare (visitare) tutti i nodi di un albero, ossia scansionarne tutti i valori.
  
+### Visita in profondità (DFS - Depth First Search)
+
+Per visitare un albero, si visita ricorsivamente ognuno dei suoi sottoalberi; richiede uno stack di appoggio ed ha tre varianti: pre/in/post visita (pre/in/post order).
+
+![dfs](https://upload.wikimedia.org/wikipedia/commons/a/ac/Preorder-traversal.gif)
+
+![dfs-in](https://upload.wikimedia.org/wikipedia/commons/4/48/Inorder-traversal.gif)
+
+![dfs-post](https://upload.wikimedia.org/wikipedia/commons/2/28/Postorder-traversal.gif)
+
+### Visita in ampiezza (BFS - Breadth-First Search)
+
+Ogni livello dell’albero viene visitato uno dopo l’altro; richiede una coda.
+
+![bfs](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
+
+### Costo computazionale delle visite
+
+Dato che ogni nodo viene visitato al massimo una volta (se l’algoritmo è implementato correttamente), il costo di una visita di un albero contenente $n$ nodi è $O(n)$.
