@@ -1,7 +1,6 @@
 ---
 title: Alberi
 tags:
-  - alberi
   - algoritmi
   - its
   - strutture-dati
