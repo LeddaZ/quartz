@@ -70,3 +70,23 @@ In un grafo $G = (V, E)$, un cammino $C$ di lunghezza $k$ è una **sequenza di n
 #### Grafi non orientati
 
 ![adj-matrix-not-oriented](../../../../assets/graphs/adj-matrix-not-oriented.png)
+
+### Liste di adiacenza
+
+#### Grafi orientati
+
+![adj-list](../../../../assets/graphs/adj-list.png)
+
+#### Grafi non orientati
+
+![adj-list-not-oriented](../../../../assets/graphs/adj-list-not-oriented.png)
+
+## Iterazione sui grafi
+
+#### Iterazione su tutti i nodi del grafo
+
+Il costo computazionale è $O(n)$ per iterare sui nodi, ma il costo effettivo dipende anche dall’operazione che eseguiamo su ogni nodo (se anche quella è $O(n)$, complessivamente è $O(n^2)$).
+
+#### Iterazione su tutti i nodi e archi del grafo
+
+Il costo computazionale è $O(m+n)$ con le liste di adiacenza (ci sono $m$ archi e la lista di $u$ contiene solo gli archi che partono da $u$), $O(n^2)$ con le matrici di adiacenza.
