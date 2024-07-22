@@ -6,9 +6,10 @@ tags:
   - strutture-dati
 date: 2024-02-05
 ---
+
 ## Sequenza
 
-Una sequenza è una struttura dati **dinamica** e **lineare** che rappresenta una serie ordinata (nel senso di *prima* e *dopo*) di valori, dove un valore può comparire più di una volta. **L’ordine** all’interno della sequenza **è importante**. Un esempio di implementazione della sequenza è la [Linked List](./linked-list.md).
+Una sequenza è una struttura dati **dinamica** e **lineare** che rappresenta una serie ordinata (nel senso di _prima_ e _dopo_) di valori, dove un valore può comparire più di una volta. **L’ordine** all’interno della sequenza **è importante**. Un esempio di implementazione della sequenza è la [Linked List](./linked-list.md).
 
 ### Operazioni ammesse
 
@@ -36,7 +37,6 @@ Una sequenza è una struttura dati **dinamica** e **lineare** che rappresenta un
 Un insieme è una struttura dati **dinamica** e non **lineare** che memorizza una collezione non ordinata di elementi **senza valori ripetuti**.<br>
 L’ordinamento fra elementi è dato dall’eventuale relazione d’ordine definita sul tipo degli elementi stessi (ad esempio alfabetico o numerico), non dalla struttura.
 
-
 ### Operazioni ammesse
 
 - **Operazioni base**: inserimento, cancellazione, verifica se l'elemento è presente;
@@ -46,19 +46,20 @@ L’ordinamento fra elementi è dato dall’eventuale relazione d’ordine defin
 
 ### Specifica
 
-| Metodo | Descrizione |
-| ---- | ---- |
-| `int size` | Restituisce la cardinalità dell’insieme. |
-| `boolean contains (Item x)` | Restituisce `true` se `x` è contenuto nell’insieme. |
-| `insert (Item x)` | Inserisce `x` nell’insieme, se non già presente. |
-| `remove (Item x)` | Rimuove `x` dall’insieme, se presente. |
-| `Set union (Set A, Set B)` | Restituisce un nuovo insieme che è l’unione di `A` e `B`. |
+| Metodo                            | Descrizione                                                     |
+| --------------------------------- | --------------------------------------------------------------- |
+| `int size`                        | Restituisce la cardinalità dell’insieme.                        |
+| `boolean contains (Item x)`       | Restituisce `true` se `x` è contenuto nell’insieme.             |
+| `insert (Item x)`                 | Inserisce `x` nell’insieme, se non già presente.                |
+| `remove (Item x)`                 | Rimuove `x` dall’insieme, se presente.                          |
+| `Set union (Set A, Set B)`        | Restituisce un nuovo insieme che è l’unione di `A` e `B`.       |
 | `Set intersection (Set A, Set B)` | Restituisce un nuovo insieme che è l’intersezione di `A` e `B`. |
-| `Set difference (Set A, Set B)` | Restituisce un nuovo insieme che è la differenza di `A` e `B`. |
+| `Set difference (Set A, Set B)`   | Restituisce un nuovo insieme che è la differenza di `A` e `B`.  |
 
 ## Dizionario
 
 Un dizionario è una struttura dati che rappresenta il concetto matematico di **relazione univoca** $R: D → C$, detta anche **associazione chiave-valore**.
+
 - L’insieme $D$ è detto **dominio** (gli elementi sono detti **chiavi**);
 - L’insieme $C$ è detto **codominio** (gli elementi sono detti **valori**).
 

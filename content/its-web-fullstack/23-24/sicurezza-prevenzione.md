@@ -5,6 +5,7 @@ tags:
   - sicurezza
 date: 2024-01-09
 ---
+
 ## Rifiuti
 
 - **Rifiuto speciale**: rifiuto prodotto dalle aziende
@@ -22,7 +23,7 @@ Persona che, **indipendentemente dalla tipologia contrattuale**, svolge un'attiv
 
 ## Datore di lavoro
 
-Si intende generalmente con il termine datore di lavoro colui che utilizza la forza lavoro di personale dipendente, dietro pagamento di corrispettivo.  
+Si intende generalmente con il termine datore di lavoro colui che utilizza la forza lavoro di personale dipendente, dietro pagamento di corrispettivo.
 
 Datore di lavoro è quindi colui che organizza il lavoro del dipendente ed è creditore della prestazione di lavoro.
 

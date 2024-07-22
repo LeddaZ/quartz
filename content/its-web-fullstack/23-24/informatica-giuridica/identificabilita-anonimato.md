@@ -5,9 +5,11 @@ tags:
   - its
 date: 2023-12-03
 ---
+
 Il nome di un individuo (e di conseguenza la sua personalità e identità) è tutelato dal codice civile, ed è quindi un **diritto**.
 
 Una persona può essere identificata attraverso:
+
 - Nome, cognome, data di nascita
 - Numero di telefono
 - Indirizzo o luogo di residenza

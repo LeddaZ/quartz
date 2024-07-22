@@ -5,8 +5,9 @@ tags:
   - its
 date: 2023-12-03
 ---
+
 Una definizione si dice **ricorsiva** se include una o più istanze del concetto stesso.
-*Esempio: **PHP** (**PHP** Hypertext Processor)*
+_Esempio: **PHP** (**PHP** Hypertext Processor)_
 
 Una funzione ricorsiva deve avere una **condizione di uscita**.
 

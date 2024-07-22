@@ -6,6 +6,7 @@ tags:
   - strutture-dati
 date: 2024-03-04
 ---
+
 ## Definizioni
 
 ### Grafo orientato
@@ -55,9 +56,8 @@ La complessità degli algoritmi sui grafi è espressa sia in termini di $n$ sia 
 
 In un grafo $G = (V, E)$, un cammino $C$ di lunghezza $k$ è una **sequenza di nodi** $u_0$, $u_1$ , …, $u_k$ tale che $(u_i, u_i+1) ∈ E$ per $0 ≤ i ≤ k−1$. Un cammino è detto **semplice** se tutti i suoi nodi sono **distinti**.
 
->[!Esempio]
->${a, b, c, e, d}$ è un cammino semplice nel grafo di lunghezza 4.
->![graph-path](../../../../assets/graphs/graph-path.png)
+> [!Esempio] >${a, b, c, e, d}$ è un cammino semplice nel grafo di lunghezza 4.
+> ![graph-path](../../../../assets/graphs/graph-path.png)
 
 ## Memorizzazione dei grafi
 
@@ -119,19 +119,19 @@ Ogni volta che si attraversa un nodo, si segna che esso è già stato attraversa
 
 ## Componenti connesse
 
-- Un grafo *non orientato* $G=(V, E)$ è **connesso** se e solo se ogni suo nodo è raggiungibile da ogni altro suo nodo;
-- Un grafo $G'=(V', E')$ è una **componente connessa** di $G$ se e solo se $G'$ è un *sottografo connesso e massimale* di $G$;
+- Un grafo _non orientato_ $G=(V, E)$ è **connesso** se e solo se ogni suo nodo è raggiungibile da ogni altro suo nodo;
+- Un grafo $G'=(V', E')$ è una **componente connessa** di $G$ se e solo se $G'$ è un _sottografo connesso e massimale_ di $G$;
 - $G'$ è un **sottografo** di $G$ ($G'⊆ G$) se e solo se $V' ⊆ V$ e $E' ⊆ E$;
 - G' è **massimale** se e solo se non esiste un altro sottografo $G''$ di $G$ tale che $G''$ è connesso e più grande di $G'$ ($G' ⊆ G'' ⊆ G$).
 
 ## Cicli
 
-In un grafo *non orientato* $G = (V, E)$, un ciclo $C$ di lunghezza $k > 2$ è una sequenza di nodi $u_0$, $u_1$, …, $u_k$ tale che $(u_i, u_{i+1})) ∈ E$ per $0 ≤ i ≤ k−1$ e $u_0 = u_k$.
+In un grafo _non orientato_ $G = (V, E)$, un ciclo $C$ di lunghezza $k > 2$ è una sequenza di nodi $u_0$, $u_1$, …, $u_k$ tale che $(u_i, u_{i+1})) ∈ E$ per $0 ≤ i ≤ k−1$ e $u_0 = u_k$.
 
 Un grafo che non contiene cicli è detto **aciclico**. Ci serve un algoritmo che, dato un grafo non orientato $G$, restituisca `true` se $G$ contiene un ciclo, `false` altrimenti.
 
 1. Parto da un nodo $k$, segnandolo come visitato;
 2. Effettuo una DFS a partire da $k$, controllando se, scendendo in profondità, incontro nodi già marcati come visitati.
 3. Se sì, esiste un ciclo (`return true`)
-4. Se no? Non c’è un ciclo in questa componente, ma *potrebbe esistere* in un’altra, quindi devo ricominciare a cercare tra i nodi non visitati.
+4. Se no? Non c’è un ciclo in questa componente, ma _potrebbe esistere_ in un’altra, quindi devo ricominciare a cercare tra i nodi non visitati.
 5. Se non ho mai restituito `true` prima, alla fine restituisco `false`.

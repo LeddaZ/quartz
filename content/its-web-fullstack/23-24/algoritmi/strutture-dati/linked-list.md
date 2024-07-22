@@ -6,6 +6,7 @@ tags:
   - strutture-dati
 date: 2024-03-02
 ---
+
 È una sequenza di nodi contenenti dati arbitrari e 1 o 2 puntatori all'elemento successivo e/o precedente, a differenza delle liste semplici.
 
 ## Caratteristiche
@@ -27,4 +28,4 @@ date: 2024-03-02
 
 ### Coda (queue)
 
-È una struttura dati dinamica e lineare in cui l’elemento rimosso dall’operazione di cancellazione è predeterminato: quello che per più tempo è rimasto nell’insieme (**FIFO**: First-in, First-out). Nei sistemi operativi, i processi in attesa di utilizzare una risorsa vengono gestiti tramite una coda. 
+È una struttura dati dinamica e lineare in cui l’elemento rimosso dall’operazione di cancellazione è predeterminato: quello che per più tempo è rimasto nell’insieme (**FIFO**: First-in, First-out). Nei sistemi operativi, i processi in attesa di utilizzare una risorsa vengono gestiti tramite una coda.

@@ -5,9 +5,10 @@ tags:
   - its
 date: 2024-01-09
 ---
+
 ## Proprietà
 
-- **Stabilità**: un algoritmo di ordinamento è stabile se preserva l'ordine iniziale tra due elementi con la stessa chiave (*esempio: ordinamento per nome*);
+- **Stabilità**: un algoritmo di ordinamento è stabile se preserva l'ordine iniziale tra due elementi con la stessa chiave (_esempio: ordinamento per nome_);
 - **Ordinamento sul posto (in place)**: non crea copie dell'input per generare la sequenza ordinata;
 - **Adattività**: trae vantaggio dagli elementi già ordinati.
 
@@ -77,12 +78,13 @@ Dal punto di vista della complessità l'insertion sort è migliore del selection
 ## Merge sort
 
 Il merge sort, come la [ricerca binaria](./ricerca.md#Ricerca-binaria-o-dicotomica), si basa sulla tecnica **divide-et-impera**, ossia la scomposizione del problema in problemi più piccoli:
+
 - **Divide**: spezza virtualmente il vettore di n elementi in due **sottovettori** di n/2 elementi;
 - **Impera**: esegue il merge sort ricorsivamente sui due sottovettori;
 - **Combina**: unisce le due sequenze ordinate.
-L’idea di base dell’algoritmo è di dividere la collezione in piccoli gruppi finché ogni gruppo è formato da un solo elemento (che è per definizione ordinato).<br>
-I gruppi sono quindi riuniti in modo tale che i loro elementi siano
-in ordine.
+  L’idea di base dell’algoritmo è di dividere la collezione in piccoli gruppi finché ogni gruppo è formato da un solo elemento (che è per definizione ordinato).<br>
+  I gruppi sono quindi riuniti in modo tale che i loro elementi siano
+  in ordine.
 
 ### Pseudocodice
 

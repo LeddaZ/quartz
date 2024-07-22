@@ -6,9 +6,11 @@ tags:
   - strutture-dati
 date: 2024-03-04
 ---
+
 ## Definizione
 
 Un albero consiste di un insieme di **nodi** e un insieme di **archi orientati** che connettono coppie di nodi, con le seguenti proprietà:
+
 - Un nodo dell’albero è designato come nodo radice;
 - Ogni nodo $n$, a parte la radice, ha esattamente un arco entrante;
 - Esiste un cammino unico dalla radice ad ogni nodo;
@@ -42,6 +44,7 @@ Un albero è dato da un insieme vuoto oppure un nodo radice e zero o più sottoa
 ## Memorizzazione
 
 Esistono diversi modi per memorizzare un albero a seconda del numero massimo e medio di figli presenti:
+
 - Realizzazione **primo figlio, prossimo fratello** se ogni nodo può avere un numero arbitrario di figli;
 - Realizzazione con **vettore dei figli** se si sa mediamente quanti figli ci sono per ogni nodo, che avrà un riferimento al nodo padre;
 - Realizzazione con **vettore dei padri** se interessa mantenere solo la relazione figlio → padre.
@@ -58,8 +61,8 @@ Un albero generico è un albero radicato in cui ogni nodo ha un numero arbitrari
 
 ## Visita di un albero
 
- Una visita è una strategia per analizzare (visitare) tutti i nodi di un albero, ossia scansionarne tutti i valori.
- 
+Una visita è una strategia per analizzare (visitare) tutti i nodi di un albero, ossia scansionarne tutti i valori.
+
 ### Visita in profondità (DFS - Depth First Search)
 
 Per visitare un albero, si visita ricorsivamente ognuno dei suoi sottoalberi; richiede uno stack di appoggio ed ha tre varianti: pre/in/post visita (pre/in/post order).

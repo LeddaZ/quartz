@@ -5,7 +5,8 @@ tags:
   - its
 date: 2024-03-02
 ---
-Una **funzione hash** è definita come $h: U → {1, ..., m}$, dove $U$ è l’insieme delle chiavi possibili. In una **coppia chiave-valore** ($k$, $v$) il valore $v$ viene memorizzato in una cella indirizzata da un puntatore nella posizione $h(k)$.  
+
+Una **funzione hash** è definita come $h: U → {1, ..., m}$, dove $U$ è l’insieme delle chiavi possibili. In una **coppia chiave-valore** ($k$, $v$) il valore $v$ viene memorizzato in una cella indirizzata da un puntatore nella posizione $h(k)$.
 
 Quando due o più chiavi nel dizionario hanno lo stesso valore hash, diciamo che è avvenuta una **collisione**. Idealmente, vogliamo funzioni hash senza collisioni.
 
@@ -20,11 +21,11 @@ Problemi:
 
 ## Considerazioni sull’hash
 
-Una funzione hash $h$ si dice **perfetta** se non dà origine a [collisioni](./hashing#collisioni), ma spesso l’insieme delle chiavi è sparso e molto più grande del numero, inoltre non conosciamo tutte le sue caratteristiche (ad es. l’insieme dei nomi e cognomi); è quindi generalmente impossibile ottenere una funzione hash realmente perfetta.  
+Una funzione hash $h$ si dice **perfetta** se non dà origine a [collisioni](./hashing#collisioni), ma spesso l’insieme delle chiavi è sparso e molto più grande del numero, inoltre non conosciamo tutte le sue caratteristiche (ad es. l’insieme dei nomi e cognomi); è quindi generalmente impossibile ottenere una funzione hash realmente perfetta.
 
 ## Probabilità
 
-Un insieme di eventi $E = {e1, e2, …, ek}$ si dice **distribuito uniformemente** se la probabilità $P$ che uno degli eventi si verifichi è pari a $1/k$, ossia se *ogni evento ha la stessa probabilità degli altri di verificarsi*. La somma delle probabilità di tutti gli eventi in $E$ è $1$.
+Un insieme di eventi $E = {e1, e2, …, ek}$ si dice **distribuito uniformemente** se la probabilità $P$ che uno degli eventi si verifichi è pari a $1/k$, ossia se _ogni evento ha la stessa probabilità degli altri di verificarsi_. La somma delle probabilità di tutti gli eventi in $E$ è $1$.
 
 Ad esempio, in un dado non truccato ogni faccia ha probabilità di uscire pari ad **1/6**.
 
@@ -43,7 +44,7 @@ Tuttavia, per insiemi $U$ molto grandi essa non è nota, dunque si applicano tec
 
 ## L’idea generale
 
-L’idea di una funzione hash è dunque quella di *spezzettare* la chiave (o meglio, la sua rappresentazione binaria) in frammenti che, manipolati in qualche modo, permettano di ottenere un valore quanto più possibile uniformemente distribuito nell’intervallo $[1...m]$.  
+L’idea di una funzione hash è dunque quella di _spezzettare_ la chiave (o meglio, la sua rappresentazione binaria) in frammenti che, manipolati in qualche modo, permettano di ottenere un valore quanto più possibile uniformemente distribuito nell’intervallo $[1...m]$.
 
 Non è così semplice creare funzioni hash, ed esistono dei test per valutare la bontà delle funzioni:
 
@@ -54,7 +55,7 @@ Non è così semplice creare funzioni hash, ed esistono dei test per valutare la
 
 Il costo computazionale della funzione hash è $O(1)$:
 
-- Possiamo rappresentare le chiavi in una *forma standard*, ad esempio una sequenza binaria con un numero di bit comodo, come una potenza di 2;
+- Possiamo rappresentare le chiavi in una _forma standard_, ad esempio una sequenza binaria con un numero di bit comodo, come una potenza di 2;
 - Le operazioni di calcolo effettuate dalle funzioni hash possono quindi essere effettuate attraverso istruzioni in codice macchina.
 
 ## Hash e crittografia
@@ -70,7 +71,7 @@ Una collisione avviene quando due o più chiavi nel dizionario hanno lo **stesso
 
 ### Gestire le collisioni
 
-Quando la posizione che dovrebbe occupare una chiave è già occupata da un valore (*diverso*) precedente, dobbiamo trovare una posizione alternativa.
+Quando la posizione che dovrebbe occupare una chiave è già occupata da un valore (_diverso_) precedente, dobbiamo trovare una posizione alternativa.
 
 Inoltre, se una chiave non si trova nella posizione attesa, bisogna cercarla nelle posizioni alternative. Questa ricerca dovrebbe costare $O(1)$ nel caso medio, ma può arrivare a costare **O(n)** nel caso pessimo.
 
@@ -110,7 +111,7 @@ Non possiamo semplicemente sostituire la chiave che vogliamo cancellare con un `
 
 ### Problemi delle tabelle di hash
 
-- Scarsa *locality of reference*: continuando a saltare da un punto all’altro della tabella, possono verificarsi molti **cache miss**.
+- Scarsa _locality of reference_: continuando a saltare da un punto all’altro della tabella, possono verificarsi molti **cache miss**.
 - Non è possibile ottenere le chiavi in ordine, vengono disperse nello sminuzzamento fatto dalla funzione.
 
 ### Applicazioni delle funzioni di hash

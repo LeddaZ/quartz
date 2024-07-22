@@ -5,11 +5,12 @@ tags:
   - its
 date: 2023-12-13
 ---
+
 ## Valutazione di un algoritmo
 
 ### Efficienza
 
-Si deve stabilire se un programma è efficiente, ossia utilizza il tempo e lo spazio a disposizione nel miglior modo possibile; quando si raggiunge il massimo livello di efficienza si trova la **soluzione ottima**. *Non tutti i problemi possono essere risolti efficientemente, alcuni non possono essere risolti in alcun modo.*
+Si deve stabilire se un programma è efficiente, ossia utilizza il tempo e lo spazio a disposizione nel miglior modo possibile; quando si raggiunge il massimo livello di efficienza si trova la **soluzione ottima**. _Non tutti i problemi possono essere risolti efficientemente, alcuni non possono essere risolti in alcun modo._
 
 ## Tempo e spazio
 
@@ -27,9 +28,9 @@ La soluzione migliore **bilancia** l'utilizzo di tempo e spazio.
 
 ### Misura del tempo
 
-Misurare il tempo con un cronometro dipende da troppi fattori, ad esempio dalla bravura del programmatore, dal linguaggio di programmazione utilizzato e dalle specifiche del sistema. Per questo si misura il tempo con le **operazioni rilevanti**: operazioni che *caratterizzano lo scopo dell'algoritmo*, ossia che portano alla soluzione.
+Misurare il tempo con un cronometro dipende da troppi fattori, ad esempio dalla bravura del programmatore, dal linguaggio di programmazione utilizzato e dalle specifiche del sistema. Per questo si misura il tempo con le **operazioni rilevanti**: operazioni che _caratterizzano lo scopo dell'algoritmo_, ossia che portano alla soluzione.
 
-***Esempio**: in un algoritmo che cerca il valore minimo, il numero di operazioni rilevanti sarà il numero di confronti che vengono eseguiti.*
+**\*Esempio**: in un algoritmo che cerca il valore minimo, il numero di operazioni rilevanti sarà il numero di confronti che vengono eseguiti.\*
 
 ## Correttezza
 
@@ -39,13 +40,14 @@ Per risolvere un problema in modo corretto si introduce l'**invariante**: una co
 
 - **Inizializzazione** (caso base): la condizione è vera alla prima iterazione di un ciclo;
 - **Conservazione** (passo induttivo): se la condizione è vera prima di un’iterazione del ciclo, allora rimane vera al termine (quindi prima della successiva iterazione);
-- **Conclusione**: quando il ciclo termina, l’invariante deve rappresentare la *correttezza* dell’algoritmo.
+- **Conclusione**: quando il ciclo termina, l’invariante deve rappresentare la _correttezza_ dell’algoritmo.
 
 ## Complessità degli algoritmi
 
 La **complessità** è l'analisi delle **risorse impiegate** da un algoritmo per risolvere un problema in funzione della dimensione e della tipologia dell'input.
 
 La complessità di un algoritmo si misura in base al tempo per i seguenti motivi:
+
 - Per stimare il tempo impiegato per un input dato;
 - Per stimare il più grande input gestibile in tempi ragionevoli;
 - Per confrontare l’efficienza di algoritmi diversi;
