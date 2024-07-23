@@ -41,6 +41,7 @@
   & > .popover-inner[data-content-type] {
     &[data-content-type*="pdf"],
     &[data-content-type*="image"] {
+      width: max-content;
       padding: 0;
       max-height: 100%;
     }
