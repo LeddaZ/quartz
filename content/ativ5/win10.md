@@ -5,7 +5,7 @@ tags:
   - samsung
   - win10
   - windows
-date: 2024-07-23
+date: 2024-08-02
 ---
 
 Even though Windows 8(.1) has better performance, if you want a more updated and still supported OS Windows 10 is the only choice for this underpowered tablet.
