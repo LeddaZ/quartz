@@ -21,6 +21,6 @@ The Ativ Tab 5 is a mid-range tablet launched by Samsung in 2012.
 | **Display**      | 11.6" 1366x768 IPS                                            |
 | **OS**           | Windows 8 (upgradable to 8.1 and 10)                          |
 | **I/O**          | USB-A 2.0, microHDMI, microSD slot, Keyboard connector, DC IN |
-| **Connectivity** | Wi-Fi 802.11a/b/g/n, Bluetooth, Bluetooth 4.0, NFC            |
+| **Connectivity** | Wi-Fi 802.11a/b/g/n, Bluetooth 4.0, NFC                       |
 | **Camera**       | 8MP rear with flash, 2MP front                                |
 | **Battery**      | 8200 mAh                                                      |
