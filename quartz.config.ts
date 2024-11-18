@@ -16,6 +16,7 @@ const config: QuartzConfig = {
     baseUrl: "leddaz.github.io/notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
