@@ -17,9 +17,7 @@ Come per l'[oracolo](./oracolo), si può risolvere questo problema usando il **D
 
 ### Esempio di implementazione
 
-[`pizza.ts`](https://github.com/LeddaZ/design-pattern-code/blob/master/src/pizza.ts)
-
-```ts
+```ts [title="pizza.ts"]
 interface IPizza {
   name: string
   price: number

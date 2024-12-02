@@ -31,9 +31,7 @@ Il **Decorator** è strutturato in questo modo:
 
 ### Esempio di implementazione
 
-[`oracolo.ts`](https://github.com/LeddaZ/design-pattern-code/blob/master/src/oracolo.ts)
-
-```ts
+```ts title="oracolo.ts"
 interface IOracolo {
   stampaNumero(): void
 }
