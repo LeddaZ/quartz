@@ -8,3 +8,11 @@
 strong {
   color: var(--dark);
 }
+
+code[data-theme*=" "] {
+  background-color: #dfe6f5;
+}
+
+[saved-theme="dark"] code[data-theme*=" "] {
+  background-color: #161621;
+}
