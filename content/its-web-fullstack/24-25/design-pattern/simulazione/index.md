@@ -7,3 +7,5 @@ date: 2024-12-02
 ---
 
 Il codice sorgente per i punti 1 e 2 è disponibile [qui](https://github.com/LeddaZ/design-pattern-code).
+
+La versione PDF è disponibile [qui](https://leddaz.github.io/files/designPatternSimulation.pdf).
