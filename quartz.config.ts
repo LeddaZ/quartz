@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Plus Jakarta Sans",
         body: "Work Sans",
-        code: "Fira Code",
+        code: "Roboto Mono",
       },
       colors: {
         lightMode: {
