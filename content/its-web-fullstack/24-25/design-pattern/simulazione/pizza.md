@@ -2,7 +2,7 @@
 title: 3. Pizza
 tags:
   - design-pattern
-  - adapter
+  - decorator
   - its
 date: 2024-12-02
 ---
